@@ -202,6 +202,8 @@ Builder.load_string('''
                 MDIconButton:
                     icon: "phone"
                     on_release: root.call()
+                    theme_icon_color:"Custom"
+                    icon_color:[0,1,0,1]
 
             MDBoxLayout:
                 orientation: 'vertical'
