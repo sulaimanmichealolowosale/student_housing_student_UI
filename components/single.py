@@ -198,6 +198,9 @@ Builder.load_string('''
                 MDTextButton:
                     text: "Phone: "+root.agent_phone
                     size_hint_x: 1
+                
+                MDIconButton:
+                    icon: "phone"
                     on_release: root.call()
 
             MDBoxLayout:
